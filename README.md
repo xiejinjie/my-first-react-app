@@ -1,3 +1,5 @@
+This is a project to learn react. Following the learn video of [this](https://www.bilibili.com/video/BV1rz42167A6/?p=1&vd_source=c0616fdae4c22ee9728af0aa7f10c9b6)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
