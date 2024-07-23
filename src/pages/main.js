@@ -8,7 +8,7 @@ import {
     VideoCameraOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
-import CommonSider from "../components/commonSider";
+import CommonSider from "../components/commonAside";
 
 const { Header, Sider, Content } = Layout;
 
@@ -48,6 +48,7 @@ const Main = () => {
                     }}
                 >
                     Content
+                    <Outlet/>
                 </Content>
             </Layout>
         </Layout>
