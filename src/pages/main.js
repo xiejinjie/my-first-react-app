@@ -1,14 +1,8 @@
 import { React, useState } from "react"
 import { Outlet } from "react-router-dom"
-import {
-    MenuFoldOutlined,
-    MenuUnfoldOutlined,
-    UploadOutlined,
-    UserOutlined,
-    VideoCameraOutlined,
-} from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
 import CommonSider from "../components/commonAside";
+import CommonHeader from "../components/commonHeader";
 
 const { Header, Sider, Content } = Layout;
 
@@ -21,23 +15,7 @@ const Main = () => {
         <Layout className="main-container">
             <CommonSider/>
             <Layout>
-                <Header
-                    style={{
-                        padding: 0,
-                        background: colorBgContainer,
-                    }}
-                >
-                    <Button
-                        type="text"
-                        // icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-                        // onClick={() => setCollapsed(!collapsed)}
-                        style={{
-                            fontSize: '16px',
-                            width: 64,
-                            height: 64,
-                        }}
-                    />
-                </Header>
+                <CommonHeader/>
                 <Content
                     style={{
                         margin: '24px 16px',

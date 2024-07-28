@@ -29,17 +29,17 @@ const menuItems = MenuConfig.map((item) => {
 const CommonSider = () => {
     return (
         <Sider trigger={null} collapsible>
-                <h3 className="app-name">通用后台管理系统</h3>
-                <Menu
-                    theme="dark"
-                    mode="inline"
-                    defaultSelectedKeys={['1']}
-                    items={menuItems}
-                    style={{
-                        height: '100%'
-                    }}
-                />
-            </Sider>
+            <h3 className="app-name">通用后台管理系统</h3>
+            <Menu
+                theme="dark"
+                mode="inline"
+                defaultSelectedKeys={['1']}
+                items={menuItems}
+                style={{
+                    height: '100%'
+                }}
+            />
+        </Sider>
     )
 }
 
